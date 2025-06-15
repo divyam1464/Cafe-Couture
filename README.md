@@ -34,7 +34,9 @@ About Us Section — communicates the brand story with flair
 Navigation Bar — mobile menu toggle with smooth transition
 Custom Theme Colors — styled with CSS variables and consistent typography
 
-📸 Screenshots
+🎥 video & 📸 Screenshots
+
+https://github.com/user-attachments/assets/a27a27ba-f9cb-4b69-b015-c3c355a320e1
 
 Add screenshots of the website’s key sections here:
 
