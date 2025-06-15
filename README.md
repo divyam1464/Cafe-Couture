@@ -4,7 +4,7 @@ Café Couture is a fully responsive and visually elegant coffee café website de
 
 🌟 Live Demo
 
-View Café Couture Live: 
+View Café Couture Live: https://divyam1464.github.io/Cafe-Couture/
 
 📌 About the Project
 
