@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Linking Custom CSS -->
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="navlogo">
+                <h2 class="logo-text">☕Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+                <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Café Couture</h2>
+                    <h3 class="subtitle">Brewed with finesse, experience the art of coffee in a chic rendezvous — je ne sais quoi awaits.</h3>
+                    <p class="description">Step into a world where every cup is crafted with finesse and flair. At Café Couture, coffee isn't just a drink — it's an experience, a rendezvous of rich aroma, refined taste, and effortless charm. Discover your daily dose of je ne sais quoi, brewed just for you.</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button Contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="coffee-hero-section.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Café Couture, we believe coffee is more than a beverage — it's a lifestyle. Inspired by the elegance of couture and the richness of café culture, we bring you brews that awaken the senses and soothe the soul. Every cup is a handcrafted experience, blending bold flavors with timeless style. Whether you're here for a quick espresso or a slow sip of serenity, you'll find your perfect pour with a touch of je ne sais quoi. Welcome to your daily dose of sophistication.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="hot-beverages.png" alt="Hot Beverages" class="menu-img">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Wide range of Steaming Hot Coffee to make you fresh and light.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="cold-beverages.png" alt="Cold Beverages" class="menu-img">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="refreshment.png" alt="Refreshments" class="menu-img">
+                        <h3 class="name">Refreshments</h3>
+                        <p class="text">Fruit & Icy refreshing drink to make feel refresh.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="special-combo.png" alt="Special Combos" class="menu-img">
+                        <h3 class="name">Special Combos</h3>
+                        <p class="text">Your Favourite Eating and Drinking Combinations.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="desserts.png" alt="Desserts" class="menu-img">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="burger-frenchfries.png" alt="Burger & FrenchFries" class="menu-img">
+                        <h3 class="name">Burger & FrenchFries</h3>
+                        <p class="text">Quick bites to satisfy your small size hunger.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+         <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i> 
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Great Espresson Blend! Smooth and Bold Flavour. Fast Shipping Tool!"</i> 
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">"Café Couture isn’t just coffee — it’s my daily ritual of elegance and flavor"</i> 
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emma Collins</h3>
+                                <i class="feedback">"Café Couture turns my coffee break into a moment of pure luxury."</i> 
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Liam Parker</h3>
+                                <i class="feedback">"From the first sip, I knew this wasn’t just coffee — it was an experience.</i> 
+                            </li>
+                        </ul>
+     
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Gallery Section -->
+         <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+         <!-- Contact Us Section -->
+          <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>42 Brew Street, Rosewood Avenue, London, U.K.</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@coffeewebsite.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456-78909</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday: 10:00 AM - 3:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.coffeebrewtime.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your Name" class="form-input" required>
+                    <input type="email" placeholder="Your Email" class="form-input" required>
+                    <textarea placeholder="Your Message......" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+          </section>
+
+          <!-- Footer Section -->
+           <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">&copy; 2025 Cafe Courture</p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <p class="poilcy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="seperator">&#8226;</span>
+                    <a href="#" class="policy-link">Refund Policy</a>
+
+                </p>
+            </div>
+           </footer>
+    </main>
+
+    <!-- Linking Swiper CSS JavaScript File -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Linking JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
