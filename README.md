@@ -14,22 +14,22 @@ Café Couture is more than just a website — it’s an immersive digital experi
 
 The aesthetic inspiration comes from the elegance of French café culture — every section flows with intention, balance, and charm.
 
-💻 Technologies Used
+📘 Technologies Used
 
-HTML5 – for semantic structure
-CSS3 – for custom styling, layout, transitions, and responsiveness
-JavaScript (Vanilla) – for interactivity and dynamic content
-Swiper.js – for the responsive testimonial slider
-Font Awesome – for social media and contact icons
-Google Fonts – for custom typography (Poppins and Miniver)
+- **HTML5** – for semantic structure  
+- **CSS3** – for custom styling, layout, transitions, and responsiveness  
+- **JavaScript (Vanilla)** – for interactivity and dynamic content  
+- **Swiper.js** – for the responsive testimonial slider  
+- **Font Awesome** – for social media and contact icons  
+- **Google Fonts** – for custom typography (Poppins and Miniver)
 
-🎨 Key Features
+🎯 **Key Features**
 
-Fully responsive design — adapts smoothly across mobile, tablet, and desktop
-Image Gallery — zoom-in effect on hover for visual impact
-Testimonials Slider — built with Swiper.js for smooth navigation
-Custom Hero Section — with a catchy subtitle and CTA buttons
-Contact Section — clean layout with icon-aligned information
-About Us Section — communicates the brand story with flair
-Navigation Bar — mobile menu toggle with smooth transition
-Custom Theme Colors — styled with CSS variables and consistent typography
+- 📱 **Fully Responsive Design** – adapts smoothly across mobile, tablet, and desktop  
+- 🖼️ **Image Gallery** – includes a zoom-in hover effect for visual impact  
+- 🌟 **Testimonials Slider** – built with Swiper.js for smooth navigation  
+- 🧭 **Custom Hero Section** – with a catchy subtitle and eye-catching CTA buttons  
+- 📍 **Contact Section** – clean layout with icon-aligned information  
+- 🧑‍🤝‍🧑 **About Us Section** – tells the brand story with flair  
+- 📋 **Navigation Bar** – includes mobile menu toggle with smooth transition  
+- 🎨 **Custom Theme Colors** – styled with CSS variables for consistency  
