@@ -8,7 +8,7 @@ View Café Couture Live: https://divyam1464.github.io/Cafe-Couture/
 
 📌 About the Project
 
-“Because even a coffee website deserves to wear couture.”
+“Because even a coffee website deserves to wear couture."
 
 Café Couture is more than just a website — it’s an immersive digital experience that reflects my passion for thoughtful design and purposeful coding. This was built as part of my personal front-end development learning journey, where I focused on layout mastery, responsive design, and elegant user experience.
 
