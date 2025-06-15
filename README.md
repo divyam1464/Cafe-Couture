@@ -17,7 +17,8 @@ The aesthetic inspiration comes from the elegance of French café culture — ev
 📘 Technologies Used
 
 - **HTML5** – for semantic structure  
-- **CSS3** – for custom styling, layout, transitions, and responsiveness  
+- **CSS3** – for custom styling, layout, transitions, and responsiveness
+- 🧱 **Bootstrap** – for responsive grid layout, pre-styled components, and faster UI development  
 - **JavaScript (Vanilla)** – for interactivity and dynamic content  
 - **Swiper.js** – for the responsive testimonial slider  
 - **Font Awesome** – for social media and contact icons  
